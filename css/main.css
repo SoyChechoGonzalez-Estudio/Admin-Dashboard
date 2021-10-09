@@ -1,2 +1,17 @@
 @import "./Componentes/header.css";
 @import "./Componentes/card.css";
+@import "./Componentes/order-list.css";
+
+.main {
+  position: absolute;
+  width: calc(100% - 300px); /* Revisar luego */
+  left: 300px;
+  min-height: 100vh;
+  background: var(--white);
+  transition: 0.5s;
+  background: var(--prueba);
+}
+.main.active {
+  width: calc(100% - 80px);
+  left: 80px;
+}
